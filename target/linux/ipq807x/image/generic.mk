@@ -38,7 +38,7 @@ define Device/redmi_ax6
 	DEVICE_MODEL := AX6
 	DEVICE_PACKAGES := ipq-wifi-redmi_ax6 uboot-envtools
 endef
-#TARGET_DEVICES += redmi_ax6
+TARGET_DEVICES += redmi_ax6
 
 define Device/xiaomi_ax3600
 	$(call Device/FitImage)
@@ -52,7 +52,7 @@ define Device/xiaomi_ax3600
 	DEVICE_PACKAGES := ath10k-firmware-qca9887-ct ipq-wifi-xiaomi_ax3600 \
 	kmod-ath10k-ct uboot-envtools
 endef
-#TARGET_DEVICES += xiaomi_ax3600
+TARGET_DEVICES += xiaomi_ax3600
 
 define Device/zte_mf269
 	$(call Device/FitImage)
